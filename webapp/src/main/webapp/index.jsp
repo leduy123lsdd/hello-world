@@ -4,3 +4,5 @@
 <h2>Duy le canh :))) </h2>
 
 <h1>Test deploy on Docker cotnainer</h1>
+
+<h1> test deploy using ansible </h1>
