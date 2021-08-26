@@ -4,8 +4,6 @@
 
 <h1>hahaha </h1>
 
-
-<h1>What a day :))) </h1>
 <h1>I love dog </h1>
 
 <h1>Nah.</h1>
