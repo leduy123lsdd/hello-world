@@ -13,9 +13,5 @@
 
 <h1>blue and green</h1>
 <h1>main</h1>
-<h1>main test tag realse </h1>
-
-<h1>main test tag realse 2 </h1>
-
-yy\
+<h1>main test tag realse - 1 </h1>
 
