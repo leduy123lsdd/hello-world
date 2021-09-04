@@ -2,19 +2,20 @@ pipeline {
       agent any
 
       stages {
-            stage("build") {
+            stage("Build") {
                   steps {
                         echo 'hello world'
+                        sh 'cat Jenkinsfile'
                   }
             }
 
-            stage("test") {
+            stage("Test") {
                   steps {
                         echo 'hello world test'
                   }
             }
 
-            stage("deploy") {
+            stage("Deploy") {
                   steps {
                         echo 'hello world deploy'
                   }
