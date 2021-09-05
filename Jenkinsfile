@@ -10,7 +10,6 @@ pipeline {
 
             stage("Test") {
                   steps {
-                        sh './home/leduy/pipepline/test/test.sh'
                   }
             }
 
