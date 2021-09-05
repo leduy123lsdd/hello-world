@@ -4,14 +4,15 @@ pipeline {
       stages {
             stage("Build") {
                   steps {
-                        echo 'hello world'
-                        sh 'cat Jenkinsfile'
+			      sh 'sudo rm -f /home/leduy/pipline/hello-world'
+			      sh 'cp . /home/leduy/pipepline/hello-world'
+                        sh './home/leduy/pipepline/build/mvn.sh'
                   }
             }
 
             stage("Test") {
                   steps {
-                        echo 'hello world test'
+                        sh './home/leduy/pipepline/test/test.sh'
                   }
             }
 
