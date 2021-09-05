@@ -4,7 +4,7 @@ pipeline {
       stages {
             stage("Build") {
                   steps {
-			sh 'sudo rm -f /home/leduy/pipeline/hello-world && echo 123456'
+			sh 'sudo rm -f /home/leduy/pipepline/hello-world && echo 123456'
 			sh 'cp . /home/leduy/pipepline/hello-world'
                         sh './home/leduy/pipepline/build/mvn.sh'
                   }
