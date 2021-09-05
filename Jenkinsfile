@@ -5,7 +5,7 @@ pipeline {
             stage("Build") {
                   steps {
 			sh 'pwd'
-			sh 'cp -r . /home/leduy/pipepline/hello-world'
+			sh 'sudo cp -r . /home/leduy/pipepline/hello-world && echo 123456'
                         sh './home/leduy/pipepline/build/mvn.sh'
                   }
             }
